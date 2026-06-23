@@ -14,9 +14,9 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Nancy — Cloud Data Engineer',
+  title: 'Nancy Gupta— Cloud Data Engineer',
   description:
-    'Cloud Data Engineer specializing in scalable data pipelines, ETL, and cloud-native architecture across AWS, GCP, and Azure.',
+    'Cloud Data Engineer specializing in scalable data pipelines, ETL, and cloud-native architecture across multiple cloud platforms.',
   generator: 'v0.app',
   icons: {
     icon: [
