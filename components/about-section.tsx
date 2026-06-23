@@ -15,7 +15,7 @@ const experience = [
   },
   {
     period: "Mar 2021 - Nov 2023",
-    role: "Senior Analysts",
+    role: "Senior Analyst",
     company: "Capgemini",
     description:
       "Built cross-cloud data pipelines on GCP (Pub/Sub, Cloud Run) ingesting and validating SAP, KLOST, and enterprise data into BigQuery for real-time and batch scenarios. Collaborated with architects, analysts, and business teams to translate requirements into scalable analytics solutions, delivering actionable Looker dashboards and BI reporting across the organisation.",
