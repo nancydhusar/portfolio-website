@@ -1,15 +1,15 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono, Space_Grotesk } from 'next/font/google'
+import { Roboto, Geist_Mono } from 'next/font/google'
 import './globals.css'
 
-const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
+const roboto = Roboto({
+  variable: '--font-roboto',
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '700'],
+})
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
-  subsets: ['latin'],
-})
-const spaceGrotesk = Space_Grotesk({
-  variable: '--font-space-grotesk',
   subsets: ['latin'],
 })
 
@@ -50,7 +50,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`dark ${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} bg-background`}
+      className={`dark ${roboto.variable} ${geistMono.variable} bg-background`}
     >
       <body className="font-sans antialiased">
         {children}

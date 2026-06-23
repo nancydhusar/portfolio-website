@@ -34,7 +34,7 @@ export function ContactSection() {
                 { icon: Github, label: "GitHub", value: "@nancygupta", href: "https://github.com/nancydhusar/" },
                 { icon: Linkedin, label: "LinkedIn", value: "in/nancygupta", href: "https://www.linkedin.com/in/nancy-gupta-834897176/" },
                 { icon: Mail, label: "Email", value: "hello@nancygupta", href: "mailto:nancygupta1002@gmail.com" },
-                { icon: Phone, label: "Phone", value: "+49 123 456 7890", href: "tel:+491234567890"},
+                { icon: Phone, label: "Phone", value: "+4915565980494", href: "tel:+4915565980494"},
               ].map((item) => (
                 <li key={item.label}>
                   <a
