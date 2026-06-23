@@ -1,6 +1,6 @@
 import { ArrowUpRight, Mail } from "lucide-react"
 import { Github, Linkedin } from "@/components/social-icons"
-import { Mail, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 
 export function ContactSection() {
   return (
