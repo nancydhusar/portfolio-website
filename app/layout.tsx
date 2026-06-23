@@ -8,9 +8,10 @@ const roboto = Roboto({
   subsets: ['latin'],
   weight: ['300', '400', '500', '700'],
 })
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const roboto = Roboto({
+  variable: '--font-roboto-mono',
   subsets: ['latin'],
+  weight: ['400'],
 })
 
 export const metadata: Metadata = {
