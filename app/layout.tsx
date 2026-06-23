@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Maya Reyes — Cloud Data Engineer',
+  title: 'Nancy — Cloud Data Engineer',
   description:
     'Cloud Data Engineer specializing in scalable data pipelines, ETL, and cloud-native architecture across AWS, GCP, and Azure.',
   generator: 'v0.app',

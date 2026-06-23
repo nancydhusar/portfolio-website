@@ -19,7 +19,7 @@ export function HeroSection() {
           </h1>
 
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground text-pretty">
-            I&apos;m Maya Reyes. I design and build resilient data platforms — turning messy, high-volume data into
+            I&apos;m Nancy. I design and build resilient data platforms — turning messy, high-volume data into
             reliable pipelines and warehouses that teams actually trust.
           </p>
 
@@ -39,14 +39,14 @@ export function HeroSection() {
             </a>
             <div className="flex items-center gap-3 pl-2">
               <a
-                href="https://github.com"
+                href="https://github.com/nancydhusar"
                 aria-label="GitHub"
                 className="text-muted-foreground transition-colors hover:text-foreground"
               >
                 <Github className="size-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/nancy-gupta-834897176/"
                 aria-label="LinkedIn"
                 className="text-muted-foreground transition-colors hover:text-foreground"
               >
@@ -60,8 +60,8 @@ export function HeroSection() {
           <div className="absolute -inset-3 -z-10 rounded-2xl bg-primary/10 blur-2xl" aria-hidden="true" />
           <div className="overflow-hidden rounded-2xl border border-border">
             <Image
-              src="/portrait.png"
-              alt="Portrait of Maya Reyes"
+              src="/portrait.jpeg"
+              alt="Portrait of Nancy"
               width={640}
               height={800}
               priority
@@ -73,9 +73,9 @@ export function HeroSection() {
 
       <div className="mx-auto mt-20 grid max-w-6xl grid-cols-2 gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-4">
         {[
-          { value: "8+", label: "Years experience" },
-          { value: "120+", label: "Pipelines shipped" },
-          { value: "40TB+", label: "Data processed daily" },
+          { value: "4+", label: "Years experience" },
+          { value: "40+", label: "Pipelines shipped" },
+          { value: "1-10TB", label: "Data processed daily" },
           { value: "99.9%", label: "Pipeline uptime" },
         ].map((stat) => (
           <div key={stat.label} className="bg-background p-6">

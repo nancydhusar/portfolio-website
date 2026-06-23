@@ -1,24 +1,24 @@
 const experience = [
   {
-    period: "2022 — Present",
-    role: "Senior Data Engineer",
-    company: "Northwind Analytics",
-    description:
-      "Lead the data platform team building streaming and batch pipelines on AWS. Cut warehouse costs 38% by redesigning the ingestion layer.",
-  },
-  {
-    period: "2019 — 2022",
+    period: "May 2025 - Dec 2025",
     role: "Data Engineer",
-    company: "Lumen Cloud",
+    company: "Lloyds Technology Centre",
     description:
-      "Built the company's first lakehouse on GCP, powering analytics for 200+ internal users and real-time product metrics.",
+      "Led end-to-end migration of banking data pipelines (2–20M daily transactions, Teradata → BigQuery) using Dataflow and Airflow orchestration. Delivered dbt-modelled, analytics-ready BigQuery datasets and feature tables enabling AI/ML and predictive modelling for data science teams.",
   },
   {
-    period: "2017 — 2019",
-    role: "Analytics Engineer",
-    company: "Bridge Labs",
+    period: "Nov 2023 - Feb 2025",
+    role: "Data Engineer",
+    company: "Ascendion",
     description:
-      "Owned ETL and dbt models feeding executive dashboards, establishing data quality and testing standards.",
+      "Delivered scalable, partitioned BigQuery pipelines for multi-billion row healthcare data — cutting query time by 30% and GCP costs by approx. 15% through SQL refactoring and workload optimisation. Applied validation frameworks and medical data compliance standards to ensure high data quality and reliable patient care analytics.",
+  },
+  {
+    period: "Mar 2021 - Nov 2023",
+    role: "Senior Analysts",
+    company: "Capgemini",
+    description:
+      "Built cross-cloud data pipelines on GCP (Pub/Sub, Cloud Run) ingesting and validating SAP, KLOST, and enterprise data into BigQuery for real-time and batch scenarios. Collaborated with architects, analysts, and business teams to translate requirements into scalable analytics solutions, delivering actionable Looker dashboards and BI reporting across the organisation.",
   },
 ]
 
@@ -35,13 +35,10 @@ export function AboutSection() {
 
         <div className="space-y-6">
           <p className="text-lg leading-relaxed text-muted-foreground text-pretty">
-            For nearly a decade I&apos;ve worked at the intersection of cloud infrastructure and data. My focus is
-            building systems that are observable, cost-aware, and dependable — so analysts and ML teams can move fast
-            without worrying about what&apos;s underneath.
+            I build the data infrastructure that sits quietly behind good decisions. From migrating enterprise banking pipelines on GCP to engineering a renewable energy analytics platform from scratch - my work is about making data reliable, cost-efficient, and genuinely useful for the people who depend on it.
           </p>
           <p className="text-lg leading-relaxed text-muted-foreground text-pretty">
-            I care deeply about clean schemas, idempotent jobs, and pipelines that fail loudly and recover gracefully.
-            When I&apos;m not orchestrating DAGs, I&apos;m writing about data architecture and mentoring engineers.
+            I care about clean schemas, cost-efficient queries, and pipelines that fail loudly and recover gracefully - the unglamorous foundations that make everything else work. When I&apos;m not building pipelines, I&apos;m experimenting with new tools and architectures through personal projects.
           </p>
 
           <div className="mt-10 space-y-px overflow-hidden rounded-xl border border-border bg-border">

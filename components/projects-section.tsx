@@ -3,29 +3,29 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
-    title: "Real-Time Event Pipeline",
+    title: "Renewable Energy Analytics Platform",
     description:
-      "Sub-second streaming pipeline ingesting 2M+ events/min from clickstream sources into a queryable lakehouse, powering live product dashboards.",
+      "Built a full-stack data engineering platform — Kafka streaming ingestion, Bronze/Silver/Gold Lakehouse architecture, and DuckDB analytics — to process real-time weather data across German cities. Engineered domain-specific renewable energy metrics (Solar Score, Wind Energy Index, Energy Potential) and delivered insights through an interactive geospatial Streamlit dashboard.",
     image: "/project-pipeline.png",
-    tags: ["Kafka", "Flink", "Iceberg", "AWS"],
+    tags: ["Kafka", "DuckDB", "Streamlit", "Lakehouse","Geospatial"],
     href: "#",
   },
-  {
-    title: "Cloud Warehouse Migration",
-    description:
-      "Migrated a legacy on-prem warehouse to Snowflake with zero downtime, cutting query times 60% and storage costs by a third.",
-    image: "/project-warehouse.png",
-    tags: ["Snowflake", "dbt", "Terraform"],
-    href: "#",
-  },
-  {
-    title: "ML Feature Store",
-    description:
-      "Designed a centralized feature store serving online and offline features to the ML team, standardizing data across 30+ models.",
-    image: "/project-ml.png",
-    tags: ["Spark", "Databricks", "Feast", "GCP"],
-    href: "#",
-  },
+  //{
+  //  title: "Cloud Warehouse Migration",
+  //  description:
+  //    "Migrated a legacy on-prem warehouse to Snowflake with zero downtime, cutting query times 60% and storage costs by a third.",
+  //  image: "/project-warehouse.png",
+  //  tags: ["Snowflake", "dbt", "Terraform"],
+  //  href: "#",
+  //},
+  //{
+  //  title: "ML Feature Store",
+  //  description:
+  //    "Designed a centralized feature store serving online and offline features to the ML team, standardizing data across 30+ models.",
+  //  image: "/project-ml.png",
+  //  tags: ["Spark", "Databricks", "Feast", "GCP"],
+  //  href: "#",
+  //},
 ]
 
 export function ProjectsSection() {
@@ -40,7 +40,7 @@ export function ProjectsSection() {
             </h2>
           </div>
           <a
-            href="https://github.com"
+            href="https://github.com/nancydhusar"
             className="inline-flex items-center gap-2 font-mono text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             See all on GitHub

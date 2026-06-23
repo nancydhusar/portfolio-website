@@ -19,19 +19,19 @@ export function ContactSection() {
               </p>
 
               <a
-                href="mailto:hello@mayareyes.dev"
+                href="mailto:nancygupta1002@gmail.com"
                 className="mt-8 inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 font-mono text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
               >
                 <Mail className="size-4" />
-                hello@mayareyes.dev
+                nancygupta1002@gmail.com
               </a>
             </div>
 
             <ul className="space-y-px overflow-hidden rounded-xl border border-border bg-border">
               {[
-                { icon: Github, label: "GitHub", value: "@mayareyes", href: "https://github.com" },
-                { icon: Linkedin, label: "LinkedIn", value: "in/mayareyes", href: "https://linkedin.com" },
-                { icon: Mail, label: "Email", value: "hello@mayareyes.dev", href: "mailto:hello@mayareyes.dev" },
+                { icon: Github, label: "GitHub", value: "@nancygupta", href: "https://github.com/nancydhusar/" },
+                { icon: Linkedin, label: "LinkedIn", value: "in/nancygupta", href: "https://www.linkedin.com/in/nancy-gupta-834897176/" },
+                { icon: Mail, label: "Email", value: "hello@nancygupta", href: "mailto:nancygupta1002@gmail.com" },
               ].map((item) => (
                 <li key={item.label}>
                   <a
@@ -54,7 +54,7 @@ export function ContactSection() {
         </div>
 
         <footer className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
-          <p className="font-mono text-xs text-muted-foreground">© 2026 Maya Reyes. Built with care.</p>
+          <p className="font-mono text-xs text-muted-foreground">© 2026 Nancy. Built with care.</p>
           <p className="font-mono text-xs text-muted-foreground">Cloud Data Engineer</p>
         </footer>
       </div>

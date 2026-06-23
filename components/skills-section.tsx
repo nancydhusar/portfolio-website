@@ -3,31 +3,31 @@ import { Cloud, Database, GitBranch, Workflow } from "lucide-react"
 const services = [
   {
     icon: Workflow,
-    title: "Data Pipelines & ETL",
+    title: "Data Pipelines & Orchestration",
     description:
-      "Batch and streaming pipelines with Airflow, dbt, Spark, and Kafka — built to be idempotent, tested, and observable.",
-    tags: ["Airflow", "dbt", "Spark", "Kafka", "Flink"],
+      "End-to-end batch and event-driven pipelines using Airflow, Python, and SQL — focused on data ingestion, validation, transformation, and reliable delivery to BigQuery.",
+    tags: ["Airflow", "Python", "SQL", "Pub/Sub", "Cloud Run", "ETL/ELT"],
   },
   {
     icon: Cloud,
-    title: "Cloud Architecture",
+    title: "Cloud Data Engineering (GCP Focused)",
     description:
-      "Cloud-native data platforms across AWS, GCP, and Azure — IaC, cost optimization, and secure, scalable design.",
-    tags: ["AWS", "GCP", "Azure", "Terraform", "Kubernetes"],
+      "Scalable cloud data solutions on Google Cloud Platform including BigQuery, Cloud Storage, Pub/Sub, and Terraform-based infrastructure automation.",
+    tags: ["GCP", "BigQuery", "Cloud Storage", "Terraform", "IAM"],
   },
   {
     icon: Database,
-    title: "Warehousing & Lakehouse",
+    title: "Data Warehousing & Analytics",
     description:
-      "Modern warehouses and lakehouses with strong modeling, partitioning, and governance for fast, trustworthy analytics.",
-    tags: ["Snowflake", "BigQuery", "Databricks", "Redshift", "Iceberg"],
+      "Building curated and analytics-ready datasets in BigQuery with strong data modeling, partitioning, and performance optimization for reporting and insights.",
+    tags: ["BigQuery", "SQL", "Data Modeling", "Looker", "DBT"],
   },
   {
     icon: GitBranch,
-    title: "DataOps & Reliability",
+    title: "Data Migration & Data Quality",
     description:
-      "CI/CD for data, lineage, monitoring, and data-quality testing so pipelines stay healthy and incidents stay rare.",
-    tags: ["Great Expectations", "Monte Carlo", "GitHub Actions", "Datadog"],
+      "Migrating data from legacy systems (DB2, Azure, SAP) to cloud platforms with validation checks, schema consistency, and automated data quality controls.",
+    tags: ["Data Migration", "DB2", "Data Quality", "Data Validation", "ETL/ELT Testing"],
   },
 ]
 
