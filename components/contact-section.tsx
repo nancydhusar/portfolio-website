@@ -26,8 +26,6 @@ export function ContactSection() {
                 <Mail className="size-4" />
                 nancygupta1002@gmail.com
 
-                <Phone className="size-4" />
-                +49 155 659 804 94
               </a>
             </div>
 
